@@ -10,3 +10,9 @@
 '''
 
 config = 'switchport trunk allowed vlan 1,3,10,20,30,100'
+
+
+config=config.split() - разделяем по пробелам
+
+config=config[-1].split(',') -разделяем по пробелма последнюю комбинацию
+
